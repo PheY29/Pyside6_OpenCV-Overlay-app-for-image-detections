@@ -2,7 +2,7 @@ import mss
 import numpy as np
 import cv2
 
-image_path = "../image to detect/mario.png"
+image_path = "image to detect/mario.png"
 image = cv2.imread(image_path, cv2.IMREAD_UNCHANGED)
 
 scales = np.arange(0.1, 1, 0.1)
