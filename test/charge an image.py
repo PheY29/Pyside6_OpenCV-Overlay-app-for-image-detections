@@ -1,6 +1,5 @@
 import cv2
 
-# image_path = "../../Appli PyPDFconverter/_img/icon.png"
 image_path = "../image to detect/mario.png"
 image = cv2.imread(image_path, cv2.IMREAD_UNCHANGED)
 
